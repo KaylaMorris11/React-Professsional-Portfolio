@@ -1,14 +1,12 @@
 import React from 'react';
+import Navbar from './Navbar';
 
-
-function Header() {
-  const message = 'Hello world! I am a React Component';
- 
+export default function Header() {
   return (
-    <div className="container">
-      <h2>{message}</h2>
-    </div>
-  );
-}
-
-export default Hello;
+    <>
+<header>
+  <h1>Kayla Morris</h1>
+    </header>
+    </>
+  )
+};

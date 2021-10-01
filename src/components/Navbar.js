@@ -2,48 +2,50 @@ import React from 'react';
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+
+  <ul class="nav justify-content-end">
+  <li class="nav-item">
         <a
-          href="#home"
-          onClick={() => handlePageChange('Home')}
+          href="#about"
+          onClick={() => handlePageChange('AboutMe')}
         
-          className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
-          Home
+          About Me
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
+          href="#portfolio"
+          onClick={() => handlePageChange('Portfolio')}
           
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
           About
         </a>
       </li>
       <li className="nav-item">
         <a
-          href="#blog"
-          onClick={() => handlePageChange('Blog')}
-          
-          className={currentPage === 'Blog' ? 'nav-link active' : 'nav-link'}
-        >
-          Blog
-        </a>
-      </li>
-      <li className="nav-item">
-        <a
           href="#contact"
           onClick={() => handlePageChange('Contact')}
-         
+          
           className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
         >
           Contact
         </a>
       </li>
+      <li className="nav-item">
+        <a
+          href="#resume"
+          onClick={() => handlePageChange('Resume')}
+         
+          className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+        >
+          Resume
+        </a>
+      </li>
     </ul>
+   
   );
 }
 
