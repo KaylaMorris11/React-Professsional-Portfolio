@@ -1,11 +1,10 @@
 import React from 'react';
-import Navbar from './Navbar';
 
 export default function Header() {
   return (
     <>
 <header>
-  <h1>Kayla Morris</h1>
+  <h1>Hello, I'm Kayla!</h1>
     </header>
     </>
   )

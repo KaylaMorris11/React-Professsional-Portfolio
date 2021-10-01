@@ -3,8 +3,8 @@ import React from 'react';
 function Navbar({ currentPage, handlePageChange }) {
   return (
 
-  <ul class="nav justify-content-end">
-  <li class="nav-item">
+  <ul className="nav justify-content-end">
+  <li className="nav-item">
         <a
           href="#about"
           onClick={() => handlePageChange('AboutMe')}
@@ -21,7 +21,7 @@ function Navbar({ currentPage, handlePageChange }) {
           
           className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}
         >
-          About
+          Portfolio
         </a>
       </li>
       <li className="nav-item">
