@@ -1,0 +1,18 @@
+.footer {
+    color:white;
+    padding-top: 5em;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-container {
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
