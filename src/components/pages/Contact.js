@@ -14,6 +14,8 @@ export default function Contact() {
   <p></p>
   <p>Message:</p>
   <textarea rows="5" cols="60" name="text"></textarea>
+  <p></p>
+  <button>Submit</button>
     </div>
   );
 }
