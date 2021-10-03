@@ -1,13 +1,17 @@
 import React from 'react';
+import './styles/Navbar.css'
+import Header from './Header'
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-
+<div className="navcontain">
+<Header />
   <ul className="nav justify-content-end">
+ 
   <li className="nav-item">
         <a
           href="#about"
-          onClick={() => handlePageChange('AboutMe')}
+          onClick={() => handlePageChange('About')}
         
           className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
         >
@@ -45,7 +49,7 @@ function Navbar({ currentPage, handlePageChange }) {
         </a>
       </li>
     </ul>
-   
+   </div>
   );
 }
 

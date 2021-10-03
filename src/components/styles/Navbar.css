@@ -1,0 +1,16 @@
+* {
+font-family: Geneva, Verdana, sans-serif;
+color: black;
+}
+
+.navcontain {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-right: 80px; 
+    font-size: 20px;
+
+}
+li {
+    display:inline-block;
+}
